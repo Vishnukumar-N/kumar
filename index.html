@@ -3,9 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vishnu Kumar | Portfolio</title>
+    <style>
+        /* Reset and Basic Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-btn {
+            color: #fff;
+            background: #555;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact-btn:hover {
+            background: #777;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        #about p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills ul li {
+            background: #333;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        /* Projects Section */
+        .project {
+            background: #f4f4f4;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            color: #333;
+        }
+
+        .project p {
+            color: #666;
+        }
+
+        /* Education Section */
+        #education p {
+            text-align: center;
+            color: #666;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        /* Achievements Section */
+        #achievements ul {
+            list-style: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #achievements ul li {
+            background: #eee;
+            padding: 10px 15px;
+            margin: 5px 0;
+            border-radius: 5px;
+            color: #333;
+        }
+
+        /* Contact Section */
+        #contact p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        #contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Vishnu Kumar</h1>
+            <p>Software Engineer | Full Stack Developer</p>
+            <a href="mailto:vishnukumarnatarajan01@gmail.com" class="contact-btn">Contact Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Results-driven software developer with expertise in full-stack development and data engineering. Skilled in Django, PySpark, and RESTful API design. Passionate about solving complex problems and building scalable applications.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>PySpark</li>
+                <li>REST APIs</li>
+                <li>Data Structures & Algorithms</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>SQL & Database Management</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Digital Medical Records Database (DMRD)</h3>
+                <p>A secure web application for managing patient records, including registration, login, and appointment management using Django and SQL.</p>
+            </div>
+            <div class="project">
+                <h3>Event Management API</h3>
+                <p>API for event management with CRUD capabilities, providing robust functionality for event operations.</p>
+            </div>
+            <div class="project">
+                <h3>Result Management System</h3>
+                <p>A role-based system allowing staff to manage records and students to view results, ensuring data security and access control.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Engineering in Computer Science and Engineering</strong></p>
+            <p>Government College of Engineering, Thanjavur (Anna University) | CGPA: 8.73</p>
+            <p>Qualified GATE 2023 with a score of 33/100</p>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Qualified GATE 2023 with a score of 33/100</li>
+                <li>Good knowledge of computer fundamentals</li>
+                <li>Solved over 500+ DSA problems on GeeksforGeeks</li>
+                <li>Strong skills in Data Structures and Algorithms (DSA)</li>
+                <li>Chess Zonal First Place - 10th Grade</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:vishnukumarnatarajan01@gmail.com">vishnukumarnatarajan01@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/vishnu-kumar-a54a26216/" target="_blank">linkedin.com/in/vishnu-kumar</a></p>
+            <p>GeeksforGeeks: <a href="https://www.geeksforgeeks.org/user/vishvksrhq" target="_blank">geeksforgeeks.org/user/vishvksrhq</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vishnu Kumar | All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
